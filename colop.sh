@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-#title          : colop.sh
+#script name    : colop.sh
+#title          : CSV Column Basic Mathmatical Operations
 #description    : This bash script can be used to add, multiply, subtract, or divide
 #                 specific column values in each row and input the solutions for
 #                 each row into a new Sol.txt file.
