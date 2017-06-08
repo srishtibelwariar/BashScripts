@@ -1,2 +1,2 @@
 # BashScripts
-CSV Column Basic Mathematic Operations
+CSV Column Basic Mathematical Operations
