@@ -1,3 +1,3 @@
 # BashScripts
-CSV Column Basic Mathematical Operations
-Palindrome Checker
+- CSV Column Basic Mathematical Operations
+- Palindrome Checker
