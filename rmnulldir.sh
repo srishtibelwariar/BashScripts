@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-#title          : rmnulldir.sh
+#script name    : rmnulldir.sh
+#title          : Empty Subdirectories Remover
 #description    : This bash script deletes empty subdirectories in main directory
 #		  and echos number of subdirectories deleted.
 #author         : Srishti Belwariar
