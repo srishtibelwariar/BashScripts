@@ -7,7 +7,8 @@
 #date           : 06/19/2017
 #usage          : ./rmnulldir.sh
 #notes          : This script deletes empty subdirectories that lie within the root directory's
-#		 	 first tier of subdirectories within the main directory
+#		 	 first tier of subdirectories within the main directory as well as
+#		 	 subdirectories within those folders.
 #		  Script echos the number of folders deleted
 #		
 #		Valid commands:
@@ -16,18 +17,20 @@
 #bash_version   : 3.2.57(1)-release
 #============================================================================
 
-dir=(*/)
+dir=($(du | cut -f2))
 counter=0
 
-for x in "${dir[@]}";
+for x in "${dir[@]}"
 do
-size=$(du "$x" | cut -f1)
+size=$(du -s "$x" | cut -f1)
 
-if [ $size -eq 0 ];
-then 
+if [ $size -eq 0 ] 
+then
 rmdir "$x"
+#echo "$x needs to be deleted"
 counter=$(($counter+1))
 fi
+
 done
 
 echo "Deleted $counter subdirectories"
