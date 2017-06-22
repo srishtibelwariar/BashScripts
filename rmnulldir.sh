@@ -6,9 +6,10 @@
 #author         : Srishti Belwariar
 #date           : 06/19/2017
 #usage          : ./rmnulldir.sh
-#notes          : This script deletes empty subdirectories that lie within the root directory's
-#		 	 first tier of subdirectories within the main directory as well as
-#		 	 subdirectories within those folders.
+#notes          : This script deletes empty subdirectories within the root directory,
+#                 including empty subdirectories at different depths.  Pre condition
+#                 is that all directories (empty or not) must not contain spaces in
+#                 their name.
 #		  Script echos the number of folders deleted
 #		
 #		Valid commands:
