@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-
-#title          : rename.sh
+#script name    : rename.sh
+#title          : Batch Rename
 #description    : This bash script can be used to rename files of selected extensions
 #                 in a root directory to the root directory's name and an incremental
 #                 count.
@@ -9,17 +9,14 @@
 #usage          : ./rename.sh [fileExtension] [fileExtension] ...
 #                 ./rename.sh
 #notes          :
-#   This script is useful for batch renaming files in a root directory.  This script takes
-#	many file extension types (.jpg, .png, .txt, etc.) as arguments.  This script will check
+#   This script is useful for batch renaming files in a root directory at a max depth of 0.  This script takes
+#	many file extension types (.jpg, .png, .txt, etc.) as arguments.  This script will check and 
 #	compile an array of all the files that hold the same extensions as the arguments
-#	provided.  Then the script utilizes two pass renaming technique to rename files with
+#	provided.  Then the script utilizes two pass renaming technique to rename files without using an existing filename.
 #	This script mass renames files of specific file extensions (given as arguements) in a root directory.
-#   User
-#   runs script with as many extension types for arguments.  If no argument is specified, all files in root
-#   directory are set for batch renaming.  Otherwise only specified argument file types will be renamed
+#   If no argument is specified, all files in root directory are set for batch renaming.  
+#   Otherwise only specified argument file types will be renamed
 #   accordingly.
-#   After renaming, script will echo what file types did not exist in root directory (And were part of the
-#   arguments) and how many files of each extension were renamed.
 #   If root directory was named “root” and it contained only .jpg, .txt, and .pdf files, the following
 #   commands
 #   will result as:
@@ -29,10 +26,6 @@
 #		~Will rename only .jpg and .txt files in root
 #	$ ./rename.sh .docx
 #		~Will echo there are no .docx files to edit
-#   Renaming will be as root01.jpg, root01.png, root01.txt, root02.jpg, etc.
-#   Incrementing numbers will only increment on same file type ie this makes root01 be the name for all
-#   first
-#   files of all specified file extensions.
 #   some valid commands, if the csv files were real:
 #   $ ./rename.sh
 #   $ ./rename.sh .txt .jpg [...]
