@@ -26,7 +26,7 @@
 #		~Will rename only .jpg and .txt files in root
 #	$ ./rename.sh .docx
 #		~Will echo there are no .docx files to edit
-#   some valid commands, if the csv files were real:
+#   some valid commands:
 #   $ ./rename.sh
 #   $ ./rename.sh .txt .jpg [...]
 #   $ ./rename.sh .docx
