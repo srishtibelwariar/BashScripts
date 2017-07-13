@@ -47,10 +47,29 @@ done
 #set column 2 to another array
 while read line;
 do
-new+=$(echo $line | cut -d, -f1)
+new+=$(echo $line | cut -d, -f2)
+done
+
+#check
+oL=${#original[@]}
+nL=${#new[@]}
+if [ $oL -ne $nL ]
+then
+echo "CSV file does not contain equal entries in both columns"
+exit
+fi
+
+#set inode numbers as transition name tN array
+for((i=0; i<$oL; i++))
+do
+SerialNumber=($(ls -i ${original[i]} | awk '{print $1}'))
+extension=($(echo ${original[i]} | cut -d'.' -f2))
+transN=$SerialNumber.$extension
+tN+=$transN
 done
 
 #conduct name swaps using 2 pass system
+
 
 #add final name changes
 
