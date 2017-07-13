@@ -1,7 +1,7 @@
 # Bash Scripts
-- CSV Column Basic Mathematical Operations
-- Palindrome Checker
-- Empty Subdirectories Remover
-- Batch Rename
+- CSV Column Basic Mathematical Operations           colop.sh
+- Palindrome Checker                                 palindrome.sh
+- Empty Subdirectories Remover                       rmnulldir.sh 
+- Batch Rename                                       rename.sh
 - All Depths Batch Renaming
 - Batch Renaming Using CSV File Look Up
