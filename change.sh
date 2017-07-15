@@ -11,18 +11,18 @@
 
 #============================================================================
 
-echo -n "Enter total amount: $"
+cho -n "Enter total amount: $"
 read Amount
 
 echo -n "Enter amount given: $"
 read Given
 
-#if [ $Amount -gt $Given ]
-#then
-#echo "Amount charged is greater than amount paid."
-#exit
-#fi
+if [ $(echo $Given - $Amount| bc) ]
+then
+echo "Amount charged is greater than amount paid."
+exit
+fi
 
 
-Change=$(( $Given - $Amount ))
+Change=$(echo $Given - $Amount| bc)
 echo "Your change is $ $Change."
