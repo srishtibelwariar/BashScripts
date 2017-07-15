@@ -10,3 +10,5 @@
 |6| Batch Renaming Using CSV File Look Up      | [csvrename.sh](https://github.com/srishtibelwariar/BashScripts/blob/master/csvrename.sh)     |
 |7| All Depths Batch Renaming                  | IN PROGRESS    |
 |8| Grandfather-Father-Son Backup              | IN PROGRESS    |
+|9| Desktop Wallpaper Changer- CRON Job        | IN PROGRESS    |
+|10| Mass Image Resizing                       | IN PROGRESS    |
