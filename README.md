@@ -5,7 +5,7 @@ This collection is intended to highlight some of my work towards reaching a bett
 
 |#| Project Title                              | File Name                             |
 |-| ------------------------------------------ | ------------------------------------- |
-|1| Change Calculator   | [change.sh](https://github.c|om/srishtibelwariar/BashScripts/blob/master/change.sh)    |
+|1| Change Calculator   | [change.sh](https://github.com/srishtibelwariar/BashScripts/blob/master/change.sh)    |
 |2| CSV Column Basic Mathematical Operations   | [colop.sh](https://github.com/srishtibelwariar/BashScripts/blob/master/colop.sh)    |
 |3| Palindrome Checker                         | [palindrome.sh](https://github.com/srishtibelwariar/BashScripts/blob/master/palindrome.sh) |
 |4| Empty Subdirectories Remover               | [rmnulldir.sh](https://github.com/srishtibelwariar/BashScripts/blob/master/rmnulldir.sh)    |
