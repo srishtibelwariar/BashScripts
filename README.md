@@ -14,5 +14,4 @@ This collection is intended to highlight some of my work towards reaching a bett
 |7| All Depths Batch Renaming                  | IN PROGRESS    |
 |8| Grandfather-Father-Son Backup              | IN PROGRESS    |
 |9| Desktop Wallpaper Changer- CRON Job        | IN PROGRESS    |
-|10| Mass Image Resizing                       | IN PROGRESS    |
-|11| Trash Clean Up- CRON Job        | IN PROGRESS    |
+|10| Trash Clean Up- CRON Job        | IN PROGRESS    |
