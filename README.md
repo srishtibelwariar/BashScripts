@@ -1,5 +1,5 @@
 # Bash Scripts
-A collection of UNIX Bash shell scripts still in the pipeline. Pun intended :)
+A collection of UNIX Bash shell scripts still in the pipeline. Pun intended :) 
 
 This collection is intended to highlight some of my work towards reaching a better understanding of UNIX shell scripting, specifically in the Bash shell, and the techniques used in many applications.
 
